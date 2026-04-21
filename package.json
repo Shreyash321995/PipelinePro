@@ -1,0 +1,9 @@
+{
+	  "name": "cloudpipeline-app",
+	    "version": "1.0.0",
+	      "description": "DevOps CI/CD Project",
+	        "main": "app.js",
+		  "scripts": {
+			      "start": "node app.js"
+			        }
+}
