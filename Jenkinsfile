@@ -3,12 +3,6 @@ pipeline {
 
     stages {
 
-        stage('Clone Code') {
-            steps {
-                git branch: 'main', url: 'https://github.com/Shreyash321995/website_shreyash.git'
-            }
-        }
-
         stage('Build Docker Image') {
             steps {
                 sh 'docker build -t cloudpipeline-app .'
